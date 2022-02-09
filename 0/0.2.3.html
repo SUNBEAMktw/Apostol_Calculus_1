@@ -65,13 +65,24 @@
     </div>
     
     <hr width="100%" noshade>
-    <p>주어진 집합 $S$에 대해 우리는 새로운 집합을 형성할 수 있으며, 이는 $S$의 <b><u>부분집합</u></b>(subsets)이라고 부른다.
+    <p>주어진 집합 $S$에 대해 우리는 새로운 집합을 형성할 수 있으며, 이는 $S$의 <b><u>부분집합(subsets)</u></b>이라고 부른다.
     가령 $10$보다 작으며 4로 약분 가능한 양의 정수로 구성되는 집합은 $10$보다 작은 모든 짝수 정수 집합의 부분집합이다.
     일반적으로 우리는 아래 정의를 취한다.</p>
+    
     <blockquote><em><b><u>부분집합의 정의</u></b>. 집합 $A$의 모든 원소가 집합 $B$에도 속할 때 $A$는 $B$의 부분집합이라고 부르며 다음처럼 적는다.
     $$ A \subseteq B.$$
     우리는 또한 $A$가 $B$에 <b><u>포함된다</u></b>고 말하거나 $B$가 $A$를 <b><u>포함한다</u></b>고 말하기도 한다. 
     $\subseteq$ 관계는 포함관계(set inclusion)라고 부른다.</blockquote>
+      
+      <p>$A \subseteq B$라는 진술은 $B \subseteq A$라는 가능성을 배제하지 않는다.
+        실상 우리는 $A \subsetq B$와 $B \subseteq A$를 동시에 지닐 수 있다.
+        다만 이는 오직 $A$와 $B$가 같은 원소를 지닐 때만 일어난다.
+        달리 말하면 아래와 같다.</p>
+      <p>$$A=B\;if\;and\;only\;if\;A \subseteq B and\;B\subseteq A.$$</p>
+      <p>이 정리는 상등과 포함 관계의 정의에 대한 즉각적인 귀결이다.
+        $A \subseteq B$이지만 $A \neq B$일 때, $A$는 $B$의 <b><u>진부분집합(proper subset)</u></b>이라고 부른다.
+        $A \subset B$라고 쓴다.</p>
+      
     
     <hr width="100%" noshade>
     
